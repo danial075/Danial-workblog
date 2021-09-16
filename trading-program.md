@@ -11,12 +11,11 @@ layout: default
 
 ```java
 try {
-			Reader reader = new FileReader(
-					"/Users/danialsheikh/Desktop/Stocks.json");
-			Gson g = new Gson(); // This is used as a parser
-			App[] stocks = g.fromJson(reader, App[].class); // On the LHS new array of type stocks and on the rhs
-															// using the parser and fromJson method which allows
-															// us to read the jsonfile in an array format
+  	Reader reader = new FileReader(
+		"/Users/danialsheikh/Desktop/Stocks.json");
+		Gson g = new Gson(); // This is used as a parser
+		App[] stocks = g.fromJson(reader, App[].class); // On the LHS new array of type stocks and on the rhs
+		// using the parser and fromJson method which allows us to read the JSON file in an array format
 			for (App i : stocks) {
 				names.add(i.getStock_Name());
 				tickers.add(i.getStock_Ticker());
