@@ -5,7 +5,7 @@ layout: default
 
 <p> Over the summer I took part in a mentorship program. The task was to keep developing and incrementally enhancing the same application over several weeks. I chose to make a trading program which takes in a stock’s name, price and ticker and parses it in via a text file. The user selects if they want to buy or sell the stock and the quantity.</p>
 
-![Trading Program, output](/Users/danialsheikh/Documents/Github/danial075.github.io/console33.png)
+![Trading Program, output](https://danial075.github.io/Users/danialsheikh/Documents/Github/danial075.github.io/console33.png)
 
 <p>The innovations I made to it were using a JSON file instead of plain text which led me to installing Maven on my machine and making use of a JSON library called GSON parser. </p>
 
