@@ -1,4 +1,4 @@
 ---
 layout: default
 ---
-[homepage to the next page](/index)
+[homepage](/index)
